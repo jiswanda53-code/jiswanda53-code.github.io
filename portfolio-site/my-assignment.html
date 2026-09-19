@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Assignment | Juan Mackinnley Iswanda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --bg: #110720;
+        --card: rgba(255,255,255,0.05);
+        --line: rgba(255,255,255,0.1);
+        --purple: #a855f7;
+        --purple-2: #c084fc;
+        --text: #f8f5ff;
+        --muted: rgba(255,255,255,0.8);
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Poppins', Arial, sans-serif;
+        line-height: 1.7;
+      }
+
+      a { color: inherit; text-decoration: none; }
+      .doc-sheet {
+        background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+        border: 1px solid var(--line);
+        border-radius: 1.5rem;
+        box-shadow: 0 20px 60px rgba(17, 7, 32, 0.35);
+      }
+      .doc-title {
+        background: linear-gradient(90deg, rgba(168,85,247,0.18), rgba(255,255,255,0.02));
+        border-bottom: 1px solid var(--line);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#110720]/80 backdrop-blur-sm">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="mywork.html#home" class="text-2xl font-bold text-white">
+          Juan<span class="text-purple-400">.</span>
+        </a>
+        <ul class="flex items-center gap-6 text-sm md:gap-8">
+          <li><a href="mywork.html#home" class="text-white/80 transition hover:text-purple-400">Home</a></li>
+          <li><a href="mywork.html#experience" class="text-white/80 transition hover:text-purple-400">Experience</a></li>
+          <li><a href="mywork.html#about" class="text-white/80 transition hover:text-purple-400">About</a></li>
+          <li><a href="mywork.html#lab" class="text-white/80 transition hover:text-purple-400">Journey</a></li>
+          <li><a href="my-assignment.html" class="text-purple-300 transition hover:text-purple-200">My Assignment</a></li>
+          <li><a href="mywork.html#contact" class="text-white/80 transition hover:text-purple-400">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="pt-28 pb-20 px-6">
+      <section class="mx-auto max-w-6xl">
+        <div class="mb-10 text-center">
+          <p class="mb-3 inline-block rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2 text-sm font-medium text-purple-200">
+            My Assignment Documents
+          </p>
+          <h1 class="text-4xl font-bold md:text-6xl">Juan Mackinnley Iswanda</h1>
+          <p class="mx-auto mt-4 max-w-3xl text-base text-white/80 md:text-lg">
+            A curated portfolio of my personal statement, story, growth, and university application documents.
+          </p>
+        </div>
+
+        <div class="grid gap-8 lg:grid-cols-2">
+          <article class="doc-sheet overflow-hidden">
+            <div class="doc-title px-6 py-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">Document 01</p>
+              <h2 class="mt-2 text-2xl font-bold">Personal Statement</h2>
+            </div>
+            <div class="space-y-5 p-6 text-white/85">
+              <p>
+                I&apos;m a Grade 12 student at Santa Laurensia Alam Sutera School, applying to study Cybersecurity at Curtin University Singapore.
+              </p>
+              <p>
+                I learn best through trial and failure, breaking down problems others walk past, and turning curiosity about what happens behind the screen into real, testable skills.
+              </p>
+              <p>
+                My interest in cybersecurity began when I realized I was drawn to problem solving, systems, and understanding how digital environments work behind the surface. It is a field where logic, creativity, and persistence come together.
+              </p>
+            </div>
+          </article>
+
+          <article class="doc-sheet overflow-hidden">
+            <div class="doc-title px-6 py-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">Document 02</p>
+              <h2 class="mt-2 text-2xl font-bold">My Story</h2>
+            </div>
+            <div class="space-y-5 p-6 text-white/85">
+              <p>
+                “If I&apos;m not suited for engineering, business, or athletics… what am I capable of?”
+              </p>
+              <p>
+                I kept failing at automotive engineering, small businesses, and trading. Each attempt closed a door. My mother reminded me that I did not have to force myself into something uncomfortable.
+              </p>
+              <p>
+                Looking at my hobbies and my long-standing fascination with what happens behind the screen, I found cybersecurity: a field where failure is not a dead end but part of the process.
+              </p>
+            </div>
+          </article>
+
+          <article class="doc-sheet overflow-hidden">
+            <div class="doc-title px-6 py-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">Document 03</p>
+              <h2 class="mt-2 text-2xl font-bold">University Match</h2>
+            </div>
+            <div class="space-y-5 p-6 text-white/85">
+              <p>
+                Curtin University Singapore is a strong fit for me because it offers a specialized cybersecurity pathway, hands-on learning through the on-campus Cisco lab, and opportunities for research, technology initiatives, and industry connections.
+              </p>
+              <p>
+                I want to turn curiosity into expertise alongside students from international backgrounds, while building real experience through a final-year internship.
+              </p>
+              <p>
+                This program aligns with my goal to grow into a security-conscious professional who can analyze systems, identify weaknesses, and contribute meaningful solutions.
+              </p>
+            </div>
+          </article>
+
+          <article class="doc-sheet overflow-hidden">
+            <div class="doc-title px-6 py-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">Document 04</p>
+              <h2 class="mt-2 text-2xl font-bold">Competitions &amp; Involvement</h2>
+            </div>
+            <div class="space-y-5 p-6 text-white/85">
+              <p>
+                My academic and personal development has been shaped by participation in competitions, learning opportunities, and experiences that stretch my ability to think critically and adapt under pressure.
+              </p>
+              <ul class="list-disc space-y-2 pl-5">
+                <li>Cybersecurity and technology-focused learning pathways</li>
+                <li>Hands-on exploration of digital systems and security concepts</li>
+                <li>Problem-solving experiences that strengthen resilience and analysis</li>
+                <li>Self-driven learning through practical experimentation and reflection</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="doc-sheet overflow-hidden lg:col-span-2">
+            <div class="doc-title px-6 py-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">Document 05</p>
+              <h2 class="mt-2 text-2xl font-bold">Closing Statement</h2>
+            </div>
+            <div class="space-y-5 p-6 text-white/85">
+              <p>
+                Because every closed door taught me something the last one couldn&apos;t.
+              </p>
+              <p>
+                I believe my journey has shaped me into a student who is ready to learn seriously, fail constructively, and build a meaningful future in cybersecurity. I am not seeking a path that is easy; I am seeking a path that is worth learning.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
